@@ -58,7 +58,7 @@ function selectActualUsers(mentionsArr) {
   });
 }
 
-/*
+/**
  * Takes a string and returns an array of any contained @-mentions corresponding
  * to real users.
  * @param {String} text - The text to capture @-mentions from
@@ -68,7 +68,7 @@ function getMentions(text) {
   return selectActualUsers(extractMentionMatches(text));
 }
 
-/*
+/**
  * Takes a string and returns an array of user objects corresponding to the
  * @-mentions in the string.
  * @param {String} text - The text to search for @-mentions
@@ -94,7 +94,7 @@ function getLastWordTyped(inputElem) {
   return lastWord;
 }
 
-/*
+/**
  * Takes a string containing @-mentions and returns the text with the mentions
  * converted into links to the corresponding users' profiles.
  * @param {String} text - The text in which to process @-mentions

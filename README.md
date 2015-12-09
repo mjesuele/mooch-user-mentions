@@ -17,7 +17,7 @@ React components.
 
 #### getMentionedUsers(text)
 ``` javascript
-/*
+/**
  * Takes a string and returns an array of user objects corresponding to the
  * @-mentions in the string.
  * @param {String} text - The text to search for @-mentions

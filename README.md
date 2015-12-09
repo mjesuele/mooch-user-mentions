@@ -49,7 +49,7 @@ function getLastWordTyped(inputElem) {
 
 #### processMentions(text)
 ``` javascript
-/*
+/**
  * Takes a string containing @-mentions and returns the text with the mentions
  * converted into links to the corresponding users' profiles.
  * @param {String} text - The text in which to process @-mentions
